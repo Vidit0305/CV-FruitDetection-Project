@@ -1,0 +1,23 @@
+# YOLO Dataset Configuration for Multi-Class Fruit Detection
+# Paths can be relative to the dataset root or absolute paths
+
+path: ./dataset  # Dataset root directory
+train: train/images  # Training images
+val: valid/images    # Validation images
+test: test/images    # Optional test images
+
+# Number of classes
+nc: 10
+
+# Class names mapping for the 10 canonical fruits
+names:
+  0: Apple
+  1: Banana
+  2: Orange
+  3: Mango
+  4: Grapes
+  5: Pineapple
+  6: Watermelon
+  7: Strawberry
+  8: Pear
+  9: Lemon
